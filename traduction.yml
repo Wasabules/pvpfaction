@@ -214,17 +214,17 @@ Death_Messages:
   # Here you can customize the {killer} and {killer_item} variable's translations.
   #
   Translate:
-    Skeleton: Mighty Skeleton
-    Wither Skeleton: Withered Skeleton
-    Diamond Sword: Sword of Death
+    Skeleton: skelete blanc
+    Wither Skeleton: skelete noir
+    Diamond Sword: un gros bâton en diams
 
   #
   # The default message if it's not recognized by any cause.
   #
   Default:
     Message:
-      - '&e{player} &7was blindsided by an unknown force'
-      - '&e{player} &7has died of unknown causes'
+      - '&e{player} &7est décédé, mais osef un peu'
+      - '&e{player} &7est mort d''un truc chelou'
     #
     # Use 'hide' to not broadcast to bungee, 'default' to use the main message or specify a custom message like: &6{player} &7just joined on &c{server_name}&7!
     # To use, you must have enabled BungeeCord in settings.yml first!
@@ -259,13 +259,13 @@ Death_Messages:
 
   Contact:
     Message:
-      - '&e{player} &7tried to hug a cactus'
-      - '&e{player} &7tried to fist bump with a cactus'
+      - '&e{player} &7s''est frotté à un cactus le con'
+      - '&e{player} &7 est décédé à cause de quoi ? Un cactus issou'
       - '&7That there is what we call a prickly pear, yeehaw and ouch &e{player}'
 
   Entity_Attack:
     Message:
-      - '&e{player} &7wrongly assumed {killer} liked hugs'
+      - '&e{player} &7s''est fait rektifier par {killer}, cheh'
 
     Conditions:
       blaze:
@@ -287,7 +287,7 @@ Death_Messages:
       dragon_fireball:
         Killer: DRAGON_FIREBALL
         Message:
-          - '&e{player} &7s''est fait goumé par Daenerys Targaryen'
+          - '&e{player} &7was hit by a dragon fireball'
 
       drowned:
         Killer: DROWNED
@@ -514,6 +514,7 @@ Death_Messages:
       - '&e{player} &7a goumé, personne, mais le sol oui'
       - '&7Même pas besoin de creusé une tombe, &e{player} &7est déjà dans le sol, sah'
       - '&e{player} &7mais sah, quel beau plat'
+      - '&e{player} &7a pas assez de skill pour faire un MLG'
 
   Fire:
     Message:
@@ -526,11 +527,11 @@ Death_Messages:
   Lava:
     Message:
       - '&e{player} &7s''est cru pour terminator'
-      - '&e{player} &7s''est marché sur l''eau mais pas sur la lave'
+      - '&e{player} &7sais marcher sur l''eau mais pas sur la lave'
 
   Drowning:
     Message:
-      - '&e{player} &7needs to learn to swim'
+      - '&e{player} &7 sais pas nager, pointez le tous du doigt'
 
   Block_Explosion:
     Message:
