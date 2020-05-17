@@ -287,7 +287,7 @@ Death_Messages:
       dragon_fireball:
         Killer: DRAGON_FIREBALL
         Message:
-          - '&e{player} &7was hit by a dragon fireball'
+          - '&e{player} &7s''est fait goumé par Daenerys Targaryen'
 
       drowned:
         Killer: DROWNED
