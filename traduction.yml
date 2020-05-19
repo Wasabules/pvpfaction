@@ -132,7 +132,7 @@ Join_Message:
       Permission: "chatcontrol.joinmessage.staff"
 
       Message:
-        - '&8[&2+&8] {player}'
+        - '&8[&2+&8] {player}, alias un BG'
 
 # -----------------------------------------------------------------------------------------
 # Configure custom death messages.
@@ -154,7 +154,7 @@ Quit_Message:
       Permission: "chatcontrol.joinmessage.staff"
 
       Message:
-        - '&8[&4-&8] {player}'
+        - '&8[&4-&8] {player} s''est déconnecter, vous pouvez cheat maintenant'
 
 # -----------------------------------------------------------------------------------------
 # Configure custom kick messages.
@@ -261,7 +261,6 @@ Death_Messages:
     Message:
       - '&e{player} &7s''est frotté à un cactus le con'
       - '&e{player} &7 est décédé à cause de quoi ? Un cactus issou'
-      - '&7That there is what we call a prickly pear, yeehaw and ouch &e{player}'
 
   Entity_Attack:
     Message:
@@ -527,11 +526,11 @@ Death_Messages:
   Lava:
     Message:
       - '&e{player} &7s''est cru pour terminator'
-      - '&e{player} &7sais marcher sur l''eau mais pas sur la lave'
+      - '&e{player} &7sait marcher sur l''eau mais pas sur la lave'
 
   Drowning:
     Message:
-      - '&e{player} &7 sais pas nager, pointez le tous du doigt'
+      - '&e{player} &7 sais pas nager askip'
 
   Block_Explosion:
     Message:
